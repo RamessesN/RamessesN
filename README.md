@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @RamessesN
 - 👀 I’m interested in - computer programming, robotics, piano, guitar and photography
-- 🌱 I’m currently learning - C/C++, Swift
+- 🌱 I’m currently learning - DeepLearning
 - 💞️ I’m looking to collaborate on - artificial intelligence, robotics and APP Design
 - 📫 How to reach me - stanley_zhao0113@outlook.com
 
