@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+there!;I'm+Stanley+ZHAO;Nice+to+meet+you!&fontSize=40&fontWeight=bold)
+![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+there!+I'm+Stanley+ZHAO;Nice+to+meet+you!&fontSize=40&fontWeight=bold)
 
 ## About Me 🧑🏻‍💻
 - 😘 Hi, I’m Stanley ZHAO (Nickname: RamessesN)
