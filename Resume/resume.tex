@@ -6,7 +6,9 @@
 
 \usepackage[English]{languageSelection}
 
-\usepackage[color=blue]{notePlus} 
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+
+\usepackage{noteplus} 
 
 \begin{document}
 \pagenumbering{gobble}
@@ -17,7 +19,12 @@
 }
 
 \EN{
-  \info{Undergraduate Student}{Ocean University of China}{}{}
+  \begin{minipage}[t]{0.92\textwidth}
+    \info{Undergraduate}{Ocean University of China}{Heriot-Watt Univerisity}{}
+  \end{minipage}
+
+  \vspace{0.5em}
+
   \info{mobile: (+86) 13578774880}{}{}{}
   \info{email: stanley\_zhao0113@outlook.com}{}{}{}
   \info{homepage: https://github.com/RamessesN}{}{}{}
@@ -26,42 +33,102 @@
 \yourphoto{0.15}
 
 % Personal Profile
-\section{Personal Profile}\vspace{1em}
-...
+\section{Personal Profile}\vspace{0.5em}
+I'm Yuwei ZHAO from Chang Chun, Jilin Province. I'm currently pursing a dual degree in Computer Science and Technology 
+at Ocean University of China and Heriot-Watt University (UK).
 
-\vspace{1em}
+During my studies, I have actively participated in various projects and competitions, gaining extensive hands-on 
+experience—particularly in embedded systems development, computer vision, and intelligent control.
 
-% Professional Service
-\section{Professional Service}\vspace{1em}
+I possess solid programming skills and system implementation experience, and I am proficient with both software and 
+hardware platforms such as STM32, Jetson Orin, RealityKit, and TensorRT. 
+In several research and engineering projects, I served as a core developer, demonstrating strong teamwork and 
+problem-solving abilities.
+
+In the future, I aspire to further my research in the integration of Artificial Intelligence and Robotics — 
+Embodied Intelligence, aiming to advance technological innovation and real-world applications in this emerging field.
+
+\vspace{0.8em}
+
+% Educational Background
+\section{Educational Background}\vspace{0.5em}
 \begin{itemize}
-\item ...
+
+  \item 
+  \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{Ocean University of China} & \textit{August 2023 -- June 2026} \\
+    \textit{Bachelor of Computer Science and Technology} & \\
+  \end{tabular*}
+
+  \vspace{0.8em}
+
+  \item 
+  \begin{tabular*}{0.95\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{Heriot-Watt University} & \textit{September 2026 -- June 2027} \\
+    \textit{Bachelor of Engineering} & \\
+  \end{tabular*}
+
+  \vspace{1em}
+
+  \textbf{[Core Courses]} Linux \& C (96/100), Robotics Group Project (95/100), Linear Algebra (95/100), 
+  Software Development (90.4/100), Discrete Mathematics (88/100)
+
 \end{itemize}
 
-\vspace{1em}
+\vspace{0.8em}
 
-% Selected Publications
-\section{Selected Publications}\vspace{1em}
+% Research and Projects Experience
+\section{Research and Projects Experience}\vspace{0.5em}
+\begin{itemize}
+  \item \textbf{Research Experience}
+  \begin{itemize}
+    \item \textbf{OverLoCK Feature Abstraction and Multi-source Remote Sensing Image Classification Research}·2025-2026·Running·Supervisor: Feng GAO\,[OUC]
+  \end{itemize}
 
-\subsection{\textbf{2025}}
+  \item \textbf{Robotics Group Project I\;Teaching Assistant (TA for Robotics Group Project I)}·2025·Supervisor: Shu ZHANG\,[OUC]
+  \begin{itemize}
+    \item Assisted in grading over 90 students' assignments and lab reports, designed experimental procedures and testing environments.
+    \item Explained Python syntax and Robomaster SDK usage in lab sessions, helping students troubleshoot programming and hardware issues.
+    \item Improved the average project completion rate by 20\%.
+  \end{itemize}
+  
+  \item \textbf{Projects Experience}
+  \begin{itemize}
+    \item \textbf{Achieve Python 3.8+ Version Compatibility based on Robomaster-SDK}·2025· \href{https://github.com/RamessesN/Robomaster-SDK-Ultra}{Github @Robomaster-SDK-Ultra}
+    \item \textbf{Rewriting Path Tracing in Swift to Replace Traditional Rasterization for Black Hole Simulation Experiments}·2025·\href{https://github.com/RamessesN/Black_Hole_Simulator}{GitHub @BlackHole\_Simulator}
+    \item \textbf{Offshore Photovoltaic Monitoring and Operation System}·2025·System construction and signal transmission; web intelligent control platform construction·In progress
+    \item \textbf{Multi-modal Fusion: All-weather Offshore Intelligent Perception}·2025·Using monocular depth algorithms to generate radar point cloud images to supplement the dataset· \href{https://github.com/RamessesN/VesselContest_C3}{GitHub @VesselContest\_C3}
+    \item \textbf{Swift Native iOS AR App Development}·2025·Implementing arbitrary spatial anchor setting and navigation technology based on RealityKit and ARKit· \href{https://github.com/RamessesN/Macintustin}{GitHub @Macintustin}
+    \item \textbf{Porting Nim Language to LoongArch64 Architecture}·2024·Implementing Nim's environmental adaptation on LoongArch64 architecture based on LLVM backend· \href{https://github.com/RamessesN/Nim2LoongArch64}{GitHub @Nim2LoongArch64}
+  \end{itemize}
+\end{itemize}
 
-\begin{enumerate}
-\item ...
-\end{enumerate}
-
-\vspace{1em}
+\vspace{0.8em}
 
 % Honors and Awards
-\section{Honors and Awards}\vspace{1em}
-
+\section{Honors and Awards}\vspace{0.5em}
 \begin{itemize}
-\item 2025年，全国海洋航行器设计与制作大赛C3，全国二等奖
-\item 2025年，ICM国际大学生数学建模竞赛，Honorable Mention
-\item 2025年，中国高校计算机大赛-移动应用创新赛，华东赛区二等奖
-\item 2025年，全国海洋航行器设计与制作大赛F1，齐鲁赛区三等奖
-\item 2024年，全国大学生计算机能力大赛操作系统设计赛，华东赛区优胜奖
-\item 2024年，Apple Swift Certification Contest，Certified User
-\item 2024-2025学年，中国海洋大学Scholarship，综合三等奖学金
-\item 2023-2024学年，中国海洋大学Scholarship，综合三等奖学金
+  \item 2025·\textbf{China Marine Vehicle Design and Construction Contest \textit{C3}}·Second Prize of the National·Responsible for generating radar point cloud images using monocular depth algorithms to supplement the dataset
+  \item 2025·\textbf{The Interdisciplinary Contest in Modeling}·Honorable Mention·Responsible for mathematical model construction and data mining
+  \item 2025·\textbf{China Collegiate Computing Contest - Mobile Application Innovation Contest}·Second Prize of the East China Region·Responsible for the full process development of Swift native iOS App
+  \item 2024·\textbf{Computer System Development Capability Competition}·Excellence Award of the East China Region·Responsible for Nim's environmental adaptation on LoongArch64
+  \item 2025·\textbf{China Marine Vehicle Design and Construction Contest \textit{F1}}·Third Prize of the Shandong Region·Responsible for STM hardware construction and algorithm implementation
+  \item 2024·\textbf{Apple Swift Certification Contest}·Certified User
+  \item 2024-2025·\textbf{Ocean University of China Scholarship}·Third-Class Scholarship (9 / 48)
+  \item 2023-2024·\textbf{Ocean University of China Scholarship}·Third-Class Scholarship (12 / 47)
+\end{itemize}
+
+\vspace{0.8em}
+
+% Technical Skills and Tools
+\section{Technical Skills and Tools}\vspace{0.5em}
+\begin{itemize}
+  \item \textbf{Programming Languages: }C/C++, Java, Python, Swift, HTML/CSS, JavaScript, Nim
+  \item \textbf{Frameworks and Libraries: }RealityKit, ARKit, OpenCV, YOLOv8, STM32 HAL, TensorRT, PyTorch
+  \item \textbf{Embedded Systems: }STM32, Arduino, ESP32, Jetson Orin, PWM control, TIM interrupt, sensor integration
+  \item \textbf{Development Platforms: }Linux(Ubuntu), macOS, CUDA GPU acceleration, ROS2(basic)
+  \item \textbf{Development Tools: }Git, Docker, Xcode, VSCode, CMake, LaTeX, Markdown
+  \item \textbf{Languages: }English(CET-6, 520), German(basic communication)
 \end{itemize}
 
 \end{document}

@@ -11,7 +11,7 @@
 % use fontawesome
 \RequirePackage{fontawesome}
 % use xcolor for customizing color
-\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 % loading fonts
 \RequirePackage{fontspec}
 % Main document font
