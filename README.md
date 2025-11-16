@@ -13,7 +13,7 @@
 
 ## Activity Graph 📈
 <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamessesN&count_private=true&area=true&days=60&theme=nightowl" width="100%">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamessesN&count_private=true&area=true&days=30&theme=nightowl" width="100%">
 </p>
 
 ---
