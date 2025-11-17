@@ -18,4 +18,4 @@
 
 ---
 
-If you wanna know me more, please see [Resume_Stanley](./Resume/resume.pdf).
+If you wanna know me more, please see **Resume_Stanley** [en](./Resume/resume-en.pdf) or [cn](./Resume/resume-cn.pdf).
