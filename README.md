@@ -8,13 +8,11 @@
 - 📞 How to reach me - stanley_zhao0113@outlook.com
 
 ## Personal Status 🫣
-| <img height="150" alt=status1_img src="https://github-readme-stats.vercel.app/api?username=RamessesN&show_icons=true&theme=radical" /> | <img height="150" alt=status2_img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamessesN&layout=compact&theme=radical&langs_count=8" /> |
-| --- | --- |
-
-## Activity Graph 📈
-<p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=RamessesN&count_private=true&area=true&days=30&theme=nightowl" width="100%">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RamessesN/RamessesN/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RamessesN/RamessesN/main/profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="github profile 3d contribution" src="https://raw.githubusercontent.com/RamessesN/RamessesN/main/profile-3d-contrib/profile-season-animate.svg" />
+</picture>
 
 ---
 
