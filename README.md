@@ -16,4 +16,4 @@
 
 ---
 
-If you wanna know me more, please see **Resume_Stanley** [en](./Resume/resume-en.pdf) or [cn](./Resume/resume-cn.pdf).
+If you wanna know me more, please see **Resume_Stanley** [en-us](./Resume/resume_en-us.pdf) or [zh-cn](./Resume/resume_zh-cn.pdf).
