@@ -96,15 +96,15 @@ _BEng (Hons) Robotics, Autonomous and Interactive Systems_ (双学位) #h(1fr) 2
   熟练使用 Python, C/C++, Swift 进行项目开发;具备 Java 基础开发能力; 熟悉 Nim 语言及其编译构建流程; 熟练使用 LaTeX 与 Typst 进行技术文档与科研论文排版。
 ]
 
-#v(0.5em)
+#v(0em)
 
 #sidebar(with-line: true, side-width: 12%)[
   *应用开发*
 ][
-  熟悉 ROS2 机器人开发框架，具备 SLAM 建图、定位导航、视觉感知及机器人系统集成经验; 熟悉 PyTorch 模型训练与部署，具备目标检测与多模态数据处理经验; 具备 SwiftUI, ARKit, RealityKit 等 Apple 平台开发经验; 具备 STM32 等嵌入式开发与硬件调试经验。
+  熟悉 ROS2 机器人开发框架，具备 SLAM 建图、定位导航、视觉感知及机器人系统集成经验; 熟悉 PyTorch 模型训练与部署，具备目标检测与多模态数据处理经验; 具备 SwiftUI, ARKit, RealityKit 等 Apple 平台开发经验; 具备 STM32, Arduino 等嵌入式开发与硬件调试经验，熟悉 Raspberry Pi 环境下的软硬件协同开发。
 ]
 
-#v(0.5em)
+#v(0em)
 
 #sidebar(with-line: true, side-width: 12%)[
   *环境与工具*
@@ -114,7 +114,7 @@ _BEng (Hons) Robotics, Autonomous and Interactive Systems_ (双学位) #h(1fr) 2
 
 == #fa-github 项目经历
 
-1. *CourtSweeper 智能网球捡拾机器人* #h(1fr) #link("https://github.com/RamessesN/CourtSweeper")[RamessesN/CourtSweeper]
+1. *CourtSweeper 智能网球捡拾机器人* #h(1fr) #link("https://github.com/RamessesN/CourtSweeper")[_RamessesN/CourtSweeper_]
 
 - 技术栈: ROS2, slam_toolbox, Nav2, Yolo26, Jetson Orin NX, Robomaster-SDK-Ultra, SwiftUI
 
@@ -122,7 +122,23 @@ _BEng (Hons) Robotics, Autonomous and Interactive Systems_ (双学位) #h(1fr) 2
 
 - 开发面向网球场景的自主捡球机器人，基于 ROS2 构建感知、导航与执行控制系统。利用 2D 激光雷达完成地图构建与定位，并结合 Nav2 导航框架实现路径规划与自主移动；训练并部署轻量化 YOLO 模型，实现网球目标检测与跟踪。开发 RoboMaster 底盘 ROS2 驱动节点，实现 `/cmd_vel` 指令与底层运动控制接口对接；设计双滚轮捡球机构并实现电机控制逻辑。同步开发 SwiftUI 移动端应用，实现机器人状态监控、视频回传及远程操作。
 
-2. *Lost Anchor 端侧智能 iOS 增强现实应用* #h(1fr) #link("https://github.com/RamessesN/Macintustin")[RamessesN/Macintustin]
+2. *基于 STM32 的多路红外感知自主路径跟踪嵌入式系统* #h(1fr) #link("https://github.com/RamessesN/VesselContest_F1")[_RamessesN/VesselContest_F1_]
+
+- 技术栈: STM32F103C8T6, C, EDA, PWM, USART, BLE, Python
+
+#v(0em)
+
+- 基于 STM32F103C8T6 微控制器设计并实现帆船船模的自主路径跟踪控制系统，完成从电路原理图设计、EDA 布线到 PCB 制作的完整硬件开发流程。设计 15 路红外传感器并行采样方案，采用边沿检测替代电平累加以分离高速信号采集与控制决策；实现基于区域重心的舵机角度计算与 PD 控制算法，PWM 输出范围 900\~2100，实现稳定路径跟踪；配合蓝牙 BLE 模块完成串口调试与实时状态监测，并针对 macOS 平台实现跨平台烧录与调试流程。
+
+3. *Robomaster-SDK-Ultra 与 YDLidar 跨平台驱动维护* #h(1fr) #link("https://github.com/RamessesN/Robomaster-SDK-Ultra")[_RamessesN/Robomaster-SDK-Ultra_]
+
+- 技术栈: Python, C++, FFmpeg, Opus, pybind11, Cmake, macOS, Linux #h(1fr) #link("https://github.com/RamessesN/YDLidar-SDK")[_RamessesN/YDLidar-SDK_]
+
+#v(0em)
+
+- 维护并扩展 DJI RoboMaster Python SDK，修复新版本 Python 环境下的兼容性问题，整合 FFmpeg、Opus 与 pybind11 依赖链路，实现 Apple Silicon 与 Linux 平台稳定运行。参与 YDLidar SDK ARM64 适配，完善 macOS 平台构建与运行支持。
+
+4. *Lost Anchor 端侧智能 iOS 增强现实应用* #h(1fr) #link("https://github.com/RamessesN/Macintustin")[_RamessesN/Macintustin_]
 
 - 技术栈: Swift, SwiftUI, ARKit, RealityKit, CoreLocation, CoreML
 
@@ -130,15 +146,7 @@ _BEng (Hons) Robotics, Autonomous and Interactive Systems_ (双学位) #h(1fr) 2
 
 - 开发面向校园导览场景的原生 iOS 增强现实应用，基于 ARKit 与 RealityKit 构建空间锚点和三维内容展示功能，实现现实场景与数字信息的融合呈现。结合 CoreLocation 实现地理位置感知与地标信息展示，并探索端侧 AI 在移动设备上的应用。基于 Qwen-2B 4-bit 量化模型完成 CoreML 格式的转换与部署，实现离线环境下的本地推理能力，为智能问答与导览交互提供支持。
 
-3. *Robomaster-SDK-Ultra 与 YDLidar 跨平台驱动维护* #h(1fr) #link("https://github.com/RamessesN/Robomaster-SDK-Ultra")[RamessesN/Robomaster-SDK-Ultra]
-
-- 技术栈: Python, C++, FFmpeg, Opus, pybind11, Cmake, macOS, Linux #h(1fr) #link("https://github.com/RamessesN/YDLidar-SDK")[RamessesN/YDLidar-SDK]
-
-#v(0em)
-
-- 维护并扩展 DJI RoboMaster Python SDK，修复新版本 Python 环境下的兼容性问题，整合 FFmpeg、Opus 与 pybind11 依赖链路，实现 Apple Silicon 与 Linux 平台稳定运行。参与 YDLidar SDK ARM64 适配，完善 macOS 平台构建与运行支持。
-
-4. *Nim 编译器向龙芯架构迁移* #h(1fr) #link("https://github.com/RamessesN/Nim2LoongArch64")[RamessesN/Nim2LoongArch64]
+5. *Nim 编译器向龙芯架构迁移* #h(1fr) #link("https://github.com/RamessesN/Nim2LoongArch64")[_RamessesN/Nim2LoongArch64_]
 
 - 技术栈: Nim, GCC, Linux, LoongArch64, Git
 
@@ -146,24 +154,16 @@ _BEng (Hons) Robotics, Autonomous and Interactive Systems_ (双学位) #h(1fr) 2
 
 - 参与 Nim 编译器在国产龙芯 LoongArch64 架构上的移植与适配工作。针对编译流程中的平台兼容性问题进行分析与修复，完善工具链配置与构建脚本，解决交叉编译及本地编译过程中的环境依赖问题。通过实际龙芯硬件平台完成编译测试与运行验证，推动 Nim 语言生态对国产 CPU 架构的支持，为跨平台软件开发提供基础环境保障。
 
-5. *全天候海上智能感知与数字孪生系统* #h(1fr) #link("https://github.com/DerrickXu-XZZ/Ocean-Photovoltaic-O-M")[DerrickXu-XZZ/Ocean-Photovoltaic-O-M]
-
-- 技术栈: Vue 3, Django, PyTorch, Depth-Pro #h(1fr) #link("https://github.com/RamessesN/VesselContest_C3")[RamessesN/VesselContest_C3]
-
-#v(0em)
-
-- 参与学校工程学院海上光伏监测与运维数字孪生系统开发，负责数据处理流程及前后端功能实现。基于 Apple Depth-Pro 模型构建单目深度估计数据生成流程，为海上场景数据集补充深度信息；使用 Vue 3 开发可视化运维界面，实现设备状态展示、数据监测与交互功能；基于 Django 搭建后端服务并设计 RESTful API，完成前后端数据通信与业务逻辑实现。
-
 == #fa-research 科研经历
 
 *Semantic-Guided Fusion Network for Multi-source Remote Sensing Image Classification*
 
-第一作者 #h(1fr) _IEEE GRSL 2026_
+第一作者 #h(1fr) _IEEE Geoscience and Remote Sensing Letters (GRSL) 2026_
 
 针对多源遥感图像分类中语义上下文建模不足及跨模态轻微空间错位问题，提出语义引导融合网络 (SGFNet)。
 
-- 提出语义混合卷积模块 (SMCB)，利用语义亲和度动态生成卷积核，增强多源遥感数据的上下文语义建模能力；
-- 提出调频融合模块 (FMFB)，基于 DCT 构建频域跨模态交互机制，缓解 HSI 与 SAR/LiDAR 数据间轻微空间错位造成的融合误差；
+- 提出语义混合卷积模块 SMCB，利用语义亲和度动态生成卷积核增强多源遥感数据的上下文语义建模能力；
+- 提出调频融合模块 FMFB，基于 DCT 构建频域跨模态交互机制减少 HSI 与 SAR/LiDAR 数据间轻微空间错位造成的融合误差；
 - 在 Augsburg 与 Houston2018 两个国际公开数据集上取得 92.38% 和 94.17% 的 OA，整体性能优于多种主流方法；核心代码已开源 #link("https://github.com/oucailab/SGFNet")。
 
 == #fa-award 获奖情况
