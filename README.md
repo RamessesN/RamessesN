@@ -2,9 +2,9 @@
 
 ## About Me 🧑🏻‍💻
 - 😘 Hi, I’m Stanley ZHAO (Nickname: RamessesN)
-- 🌟 I’m interested in - Computer Science & Robotics & Piano & Photography
-- 📚 I’m currently learning - Computer Vision & Robotics
-- 🤓️ I’m looking to collaborate on - Computer Vision & Robotics & APP Design
+- 🌟 I’m interested in - Robotics, AI, Computer Science, Remote Sensing, Piano, Photography, etc.
+- 📚 I’m currently learning - Robotics × Artificial Intelligence
+- 🤓️ I’m looking to collaborate on - Robotics & Computer Vision & Remote Sensing & APP Design
 - 📞 How to reach me - stanley_zhao0113@outlook.com
 
 ## Personal Status 🫣
@@ -16,4 +16,4 @@
 
 ---
 
-If you wanna know me more, please see **Resume_Stanley** [en-us](./Resume/resume_en-us.pdf) or [zh-cn](./Resume/resume_zh-cn.pdf).
+To learn more about me, feel free to check out my resume: [English](./Resume/resume_en-us.pdf) | [中文](./Resume/resume_zh-cn.pdf).
